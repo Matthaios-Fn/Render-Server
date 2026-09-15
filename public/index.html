@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="{{THEME_CLASS}}">
+    <h1>Welcome to La casa de MDeezly</h1>
+    <p>Connected via local network</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAfmFosj9-_NWJrf0N5AsaJlTXwZi4EhN6I6MsCG8OIIhnoItl3srUdc:https://img.magnific.com/free-photo/computer-program-coding-screen_53876-138060.jpg%3Fsemt%3Dais_hybrid%26w%3D740%26q%3D80&s=10"
+        alt="">
+    <p>Your random fortune is: {{FORTUNE}}</p>
+    <p>Your random fact is: {{FACT}}</p>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/shoutbox">Shoutbox</a>
+        <a href="/about">About</a>
+        <a href="?theme=light">Light Mode</a>
+        <a href="?theme=dark">Dark Mode</a>
+        <a href="/coffee">Get Coffee</a>
+        <a href="/roll">Roll a Dice</a>
+    </nav>
+
+    <h3>Total Server Visits: <span id="visit-count">{{COUNT}}</span></h3>
+    <script src="script.js"></script>
+</body>
+
+</html>
